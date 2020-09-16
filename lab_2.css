@@ -1,0 +1,25 @@
+header{
+    height: 70px;
+    width: 100%;
+    background: dodgerblue;
+    position: fixed;
+}
+
+article{
+    margin: 20px;
+}
+
+.title{
+
+}
+
+span{
+    margin: 10px;
+    background: goldenrod;
+    border-radius: 3px;
+}
+
+div{
+    margin-top: 10px;
+    font-size: 20px;
+}

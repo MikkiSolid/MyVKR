@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Базовая разметка</title>
+    <link rel="stylesheet" href="lab_2.css" type="text/css">
+</head>
+<body>
+    <header>
+        <span>
+            <img scr=""/>
+            <h1 class="title">Базовая разметка</h1>
+        </span>
+        <span>
+            <h1>г.Сургут</h1>
+            <a href="">+7(982)777-77-77</a>
+        </span>
+    </header>
+    <article>
+        <div>У страницы <b>всегда</b> есть элементы <b>html, head, body</b></div>
+        <div><b>Блочные элементы</b> - занимают всё пространство по ширине, поэтому всегда переносятся на новую строку</div>
+        <div><b>Инлайн элементы</b> - занимают столько места, сколько требует содержимое. Если в строке хватает места, то они размещаются на одной строке</div>
+        <div>Чаще используют следующие элементы:</div>
+
+        <div><span>&lt;div&gt;&lt;/div&gt;</span>- Блочный элемент</div>
+        <div><span>&lt;span&gt;&lt;/span&gt;</span>- Инлайн элемент</div>
+        <div>
+            <span>&lt;h1&gt;&lt;/h1&gt;</span><span>&lt;h2&gt;&lt;/h2&gt;</span>
+            <span>&lt;h3&gt;&lt;/h3&gt;</span><span>&lt;h4&gt;&lt;/h4&gt;</span>
+            <span>&lt;h5&gt;&lt;/h5&gt;</span>- Заголовки, блочные элементы
+        </div>
+        <div><span>&lt;img src=&quot;ссылка на изображение&quot;/&gt;</span>- Изображение, инлайн элемент</div>
+        <div><span>&lt;lable for=&quot;input-id&quot;&gt;&lt;/lable&gt;</span>- Текст подпись для элементов input. При клике на этот текст фокусируются сами инпуты.</div>
+        <div><span>&lt;input type=&quot;text&quot;&gt;&lt;/input&gt;</span>- Строка ввода текста, якляется инлайн элементом</div>
+        <div><span>&lt;input type=&quot;radio&quot;&gt;&lt;/input&gt;</span>- Радио кнопка, является инлайн элементом</div>
+        <div><span>&lt;input type=&quot;checkbox&quot;&gt;&lt;/input&gt;</span>- Чекбокс, является инлайн элементом</div>
+        <div><span>&lt;a href=&quot;Ссылка&quot;&gt;&lt;/a&gt;</span>- Ссылка, инлайн элемент</div>
+        <div><span>&lt;button&gt;&lt;/button&gt;</span>- Кнопка, инлайн элемент</div>
+        <div>
+            <span>&lt;ul&gt;&lt;/ul&gt;</span><span>&lt;ol&gt;&lt;/ol&gt;</span>
+            <span>&lt;li&gt;&lt;/li&gt;</span>- Список с маркерами, нумерованный список, элемент списка. Блочные элементы
+        </div>
+        <div>
+            <span>&lt;table&gt;&lt;/table&gt;</span><span>&lt;thread&gt;&lt;/thread&gt;</span>
+            <span>&lt;tbody&gt;&lt;/tbody&gt;</span><span>&lt;tr&gt;&lt;/tr&gt;</span>
+            <span>&lt;td&gt;&lt;/td&gt;</span>- Таблица, заголовок таблицы, тело таблицы, строка и ячейка. Ячейка вкладываются в строки, а строки вкладываются в заголовок и тело таблицы
+        </div>
+        <div><span>&lt;form&gt;&lt;/form&gt;</span>- Форма. Служит для отправки данных на север. Включает в себя элементы input для ввода данных и кнопку button для отправки данных на сервер</div>
+        <div><span>&lt;link rel=&quot;stylesheet&quot; href=&quot;url&quot;/&gt;</span>- Присоединение к HTML файлу других документов, обычно это файлы CSS стилей</div>
+        <div><span>&lt;script src=&quot;url&quot;&gt;код JS для выполнения&lt;/script&gt;</span>- Присоединение к HTML файлу JS скриптов или выполнение JS кода</div>
+        <div><span>&lt;p&gt;&lt;/p&gt;</span>- Элемент, представляющий собой абзац текста</div>
+
+        <form>
+            <label>Фамилия</label>
+            <input type="text" placeholder="Введите вашу фамилию">
+            <label>Имя</label>
+            <input type="text" placeholder="Введите ваше имя">
+            <input type="checkbox">
+            <button>Отправить</button>
+        </form>
+
+    </article>
+</body>
+</html>
