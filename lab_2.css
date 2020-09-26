@@ -1,25 +1,146 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('/Fonts/Roboto/Roboto-Regular.ttf')  format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: Roboto;
+    font-size: 18px;
+}
+
 header{
-    height: 70px;
+    height: 100px;
     width: 100%;
-    background: dodgerblue;
+    top: 0;
+    left: 0;
+    background: #FCDE06;
     position: fixed;
+    box-shadow: 0.0em 0.4em 20px rgba(122,122,122,0.35);
+}
+
+.left{
+    height: 100px;
+    background-color: white;
+    width: 35%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+
+.right{
+    height: 100px;
+    background: #0052D0;
+    width: 65%;
+    display: flex;
+    margin-left: 35.3%;
+    color: white;
+    align-items: center;
 }
 
 article{
-    margin: 20px;
+    margin: 110px 0px 0px 30px;
 }
 
 .title{
-
+    display: inline;
+    font-size: 25px;
 }
 
-span{
-    margin: 10px;
-    background: goldenrod;
+.code{
+    margin: 10px 10px 10px 0;
+    background: #F2C94C;
+    padding: 5px 10px;
     border-radius: 3px;
 }
 
-div{
+img{
+    margin: 10px 35px 10px 20px;
+}
+
+p{
     margin-top: 10px;
-    font-size: 20px;
+
+    line-height: 30px;
+}
+
+.city{
+    font-size: 25px;
+    margin-left: 35px;
+}
+
+.num{
+    font-size: 25px;
+    margin-left: 35px;
+    color: white;
+    text-decoration: none;
+}
+
+.num:hover {
+    color: yellow;
+}
+
+input {
+    display: block;
+    margin-bottom: 18px;
+    margin-top: 5px;
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+    background-color: #0052D0;
+    color: white;
+    width: 362px;
+    height: 45px;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    border: 1px solid #B8B8B8;
+    box-sizing: border-box;
+}
+
+.checkBox{
+    width: 24px;
+    height: 24px;
+    margin: 10px 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.fm{
+    display: block;
+    width: 362px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #B8B8B8;
+    box-sizing: border-box;
+    background: #F4ECEC;
+}
+
+footer{
+    height: 100px;
+}
+
+.small{
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+::-webkit-input-placeholder {
+    text-align:center;
+}
+
+:-moz-placeholder {
+    text-align:center;
+}
+
+:-ms-input-placeholder {
+    text-align:center;
 }
